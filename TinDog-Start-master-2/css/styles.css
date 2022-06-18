@@ -10,10 +10,10 @@ body {
 }
 
 h1 {
-    font-size: 3.5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
-
 }
 
 .container-fluid {
@@ -27,7 +27,7 @@ h1 {
 }
 
 .navbar {
-    padding-bottom: 0 0 4.5rem;
+    padding: 0 0 4.5rem;
     /* Top:0, Left:0, Right:0, Bottom: 4.5rem */
 }
 
@@ -45,6 +45,7 @@ h1 {
 .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
+
 }
 
 #features {
@@ -89,11 +90,15 @@ h3 {
 
 /* Testimonial Section */
 #testimonials {
-    padding: 7% 15%;
-    ;
-    text-align: center;
+	/* padding: 7% 25%; */
+	text-align: center;
     background-color: #ef8172;
     color: #fff;
+}
+
+.carousel-item {
+	padding: 7% 25%;
+	/* border: 5px solid rebeccapurple; */
 }
 
 .testimonial-image {
