@@ -24,6 +24,7 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 .navbar {
@@ -51,6 +52,9 @@ h1 {
 #features {
     text-align: center;
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 /* Download Button */
@@ -94,6 +98,8 @@ h3 {
 	text-align: center;
     background-color: #ef8172;
     color: #fff;
+    position: relative;
+    z-index: 2;
 }
 
 .carousel-item {
@@ -119,20 +125,12 @@ h3 {
     margin: 20px 20px 50px;
 }
 
-.pricing-col {
-	justify-content: center;
-	text-align: center;
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
 }
 
-.card-deck {
-	display: flex;
-	justify-content: center;
-}
-
-.pricing {
-	text-align: center;
-}
-
-.pricing-heading {
-	text-align: center;
+.pricing-column {
+    padding: 3% 2%;
 }
