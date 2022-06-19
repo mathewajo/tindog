@@ -118,21 +118,3 @@ h3 {
     width: 15%;
     margin: 20px 20px 50px;
 }
-
-.pricing-col {
-	justify-content: center;
-	text-align: center;
-}
-
-.card-deck {
-	display: flex;
-	justify-content: center;
-}
-
-.pricing {
-	text-align: center;
-}
-
-.pricing-heading {
-	text-align: center;
-}
