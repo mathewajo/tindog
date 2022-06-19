@@ -24,6 +24,7 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 .navbar {
@@ -51,6 +52,9 @@ h1 {
 #features {
     text-align: center;
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 /* Download Button */
@@ -94,6 +98,8 @@ h3 {
 	text-align: center;
     background-color: #ef8172;
     color: #fff;
+    position: relative;
+    z-index: 2;
 }
 
 .carousel-item {
