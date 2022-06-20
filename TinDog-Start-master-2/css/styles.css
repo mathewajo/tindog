@@ -9,7 +9,7 @@ body {
     height: auto;
 }
 
-h1 {
+h1, h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 3.5rem;
     font-weight: 900;
@@ -133,4 +133,31 @@ h3 {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+#cta {
+	background-color: #ff4c68;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 8% 2%;
+}
+
+/* Footer */
+#footer {
+	text-align: center;
+	color: grey;
+	margin: 4% 10% 0 10%;
+}
+
+.footer-icon {
+	color: #000;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.copy-right {
+	font-size: 1rem;
+	padding: 2% 2%;
 }
